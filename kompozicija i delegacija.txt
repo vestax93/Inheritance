@@ -1,0 +1,5 @@
+Kompozicija: Ovo je princip gde jedan objekat sadrži druge objekte kao svoje delove ili komponente. To znači da objekat ima referencu ka drugim objektima koji su neophodni za njegov rad. Na primer, može postojati klasa automobila koja sadrži komponente kao što su motor, točkovi, volan, itd. Ovi delovi su bitni za funkcionisanje automobila, ali nisu nezavisno upravljani - kad se automobil uništi, i ovi delovi se obično uništavaju.
+
+Delegacija: Ovo je obrazac gde objekat prenosi odgovornost za određene zadatke ili operacije drugom objektu. Umesto da obavlja određeni posao sam, objekat prosleđuje taj posao drugom objektu koji je specijalizovan za tu vrstu zadatka. Na primer, možete imati objekat koji delegira upravljanje mrežnom komunikacijom drugom objektu, dok sam obavlja druge zadatke. Ovo omogućava bolju modularnost i olakšava održavanje koda, jer se odgovornosti razdvajaju.
+
+Ovi koncepti su ključni za razumevanje dizajna softvera jer omogućavaju bolju organizaciju koda, smanjujući zavisnosti između delova sistema i olakšavajući ponovno korišćenje i održavanje.
